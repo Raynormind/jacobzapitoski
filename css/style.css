@@ -124,7 +124,6 @@ la couleur supplémentaire lorsqu'un utilisateur survole une carte.*/
 #accueil{  
     width: 100%;
     height: 100%;
-    background-color: #b61924;
     background-image: url('../images/heroimage2.png');
     background-size: cover;
     background-position: 50% 50%;

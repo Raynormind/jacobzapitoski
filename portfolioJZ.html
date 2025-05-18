@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+
+    <link rel="stylesheet" href="bootstrap-5.2.3\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css'>
+
+    <script src="bootstrap-5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/32f2ec2ad7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="envoyerCourriel.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "5oKc8Tc01shk6jfso",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark  navbar-expand-lg fixed-top navbarScroll">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Jacob Zapitoski</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                    aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav nav nav-left-border ms-auto">
+                    <li class="nav nav-item ">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#apropos">À propos</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#competences">Compétences</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#experience">Expériences</a>
+                    </li>
+                    <!--
+                      
+						<li class="nav nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li>
+                    -->
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#myNavbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+        <section class="bgimage" id="accueil">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h1 class="hero_title">Jacob Zapitoski</h1>
+                        <p class="hero_desc">Étudiant en technique Informatique d'Application Web et Mobile</p>
+                        <p class="hero_desc">Au Cégep de Rosemont</p>
+                    </div>
+                </div>
+            </div>
+            <canvas class="particles-js-canvas-el" width="1410" height="700"
+                style="width: 100%; height: 100%;"></canvas>
+        </section>
+        <!-- Your Skills-->
+        <section id="apropos">
+            <div class="container mt-4 pt-4">
+
+
+                <h2 class="text-center">À propos de moi</h2>
+                <div class="row mt-4">
+
+
+                    <div class="col-lg-8">
+                        <p>
+                            Depuis l’Automne 2022, je suis étudiant à temps complet en
+                            <strong> Techniques de l'informatique - Profil Développement d'applications Web et mobiles
+                            </strong>au cégep de Rosemont. Je souhaite exercer
+                            mes compétences, expériences ainsi que mes habilités personnelles dans le domaine de
+                            l'informatique.
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Nom : Jacob Zapitoski</li>
+                                    <li>Âge : 24</li>
+                                    <li>Loisir: course à pied </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Tel : (514) 928-8020</li>
+                                    <li>Courriel : jacobz@live.ca</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p> Depuis l’Automne 2022, je suis étudiant à temps complet en Techniques de l’informatique,
+                                au programme de développement d’applications Web et mobiles du Collège de Rosemont.
+                                L’hiver dernier, j’ai eu le privilège de faire mon premier stage de travail hors cégep à
+                                l’Autorité des marchés financiers (AMF). Cette expérience fut très enrichissante. Elle
+                                m’a permis de vivre concrètement la réalité du marché du travail dans le domaine des
+                                technologies de l’information (TI).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Technical Skills -->
+        <section class="wavy-area">
+            <div class="container" id="competences">
+                <br>
+                <br>
+                <br>
+                <h2 class="text-center">Compétences</h2>
+                <div class="marquee marquee--8">
+                    <img class="marquee__item" src="images/svg/html5-original-wordmark.svg" width="100" height="100"
+                        alt="">
+                    <img class="marquee__item" src="images/svg/css-3.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/javascript.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/java.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/file-type-angular.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/php.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/c-sharp-c.svg" width="100" height="100" alt="">
+                    <img class="marquee__item" src="images/svg/kotlin-original-wordmark.svg" width="100" height="100"
+                        alt="">
+                    <img class="marquee__item" src="images/svg/mariadb.svg" width="100" height="100" alt="">
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+        <!-- Case Studies -->
+        <!-- Your Milestones -->
+        <section id="experience">
+            <div class="container mt-4 pt-4">
+                <h2 class="text-center">Expériences et diplômes</h2>
+                <div class="timeline">
+                    <div class="timeline-container left">
+                        <div class="content">
+                            <h3>2025 - Stage personnel à l'Autorité des Marchés Financiers</h3>
+                            <p>Stage de 280 heures</p>
+                            <p>Dévelopement front-end avec javascript, scss, Sharepoint, Power Automate </p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="content">
+                            <h3>2022 - DEC en Science de la Nature </h3>
+                            <p>Étude collégiales au Cégep Montmorency en Science de la Nature : Science Pures et
+                                Appliquées</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials (What others say about you) -->
+        <div class="container mt-4 pt-4">
+
+        </div>
+        <!--
+            <section id="services">
+                <div class="container">
+                    <h2 class="text-center">Services</h2>
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fas servicesIcon fa-clock"></i>
+                                    <h3 class="card-title mt-3">Développement de site Web</h3>
+                                    <p class="card-text mt-3">Développement d'applications web modernes et adaptées aux besoins spécifiques.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-layer-group'></i>
+                                    <h3 class="card-title mt-3">Conception de site Web</h3>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+           
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='far servicesIcon fa-check-circle'></i>
+                                    <h3 class="card-title mt-3">Déploiement du site Web</h3>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+         
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card h-100 servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-search'></i>
+                                    <h3 class="card-title mt-3">SEO</h3>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-shield-alt'></i>
+                                    <h3 class="card-title mt-3">DevOps</h3>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+           
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-wrench'></i>
+                                    <h3 class="card-title mt-3">QA</h3>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        -->
+
+        <section id="portfolio">
+            <div class="container mt-3">
+                <h2 class="text-center">Portfolio</h2>
+                <div class="row">
+                    <div class="col-lg mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image"
+                                style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Plateforme d'échanges culturels et liguistiques</h3>
+                                <p class="card-text">
+                                    Une plateforme en ligne destinée à faciliter les échanges culturels et linguistiques
+                                    entre personnes du monde entier.
+                                    Les utilisateurs peuvent s'inscrire, se connecter et intéragir avec d'autres membres
+                                    dans le but de partager leur culture,
+                                    pratiquer des langues étrangères et élargir leurs horizons. La plateforme comporte
+                                    différentes catégories d'utilisateurs,
+                                    avec des fonctionnalités spécifiques à chaque niveau. Au cour de ce projet 3 version
+                                    ont été créer. Elles utilisent respectivement java EE, Springboot et Angular.
+                                </p>
+                                <p>
+                                    Projet réaliser en équipe de 4, je me suis occuper de la page message front end et
+                                    backend ainsi que la page forum backend en collaboration avec Youssef.
+                                </p>
+
+                                <div class="text-center">
+                                    <p>
+                                        <svg height="48" width="42">
+                                            <image height="48" width="42" href="images/svg/java.svg" />
+                                        </svg>
+                                        <svg height="48" width="42">
+                                            <image height="48" width="42" href="images/svg/spring.svg" />
+                                        </svg>
+                                        <svg height="48" width="42">
+                                            <image height="48" width="42" href="images/svg/javascript.svg" />
+                                        </svg>
+                                        <svg height="48" width="42">
+                                            <image height="48" width="42" href="images/svg/file-type-angular.svg" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <div class="text-center">
+                                    <a href="https://github.com/Raynormind/projetweb2Angular.git"
+                                        class="btn btn-success" target="_blank"><span class="fa fa-github"></span>
+                                        Lien</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image"
+                                style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">API Vidéo</h3>
+                                <p class="card-text"> L'application est une API publique qui permet à tous de consulter
+                                    la liste des vidéos publier par des utilisateurs et de recherché une vidéo par son
+                                    nom afin de visioner la vidéo.
+                                </p>
+                                <p class="card-text">
+                                    Je me suis occuper d'implémenté les actions creerVideo, modifierVideo et
+                                    supprimerVideo. L'authentification avec auth0 a été réaliser en collaboration avec
+                                    mon coéquipier.
+                                </p>
+                                <p class="card-text">
+                                    Les test ont été réaliser sur postman.
+                                </p>
+                                <div class="text-center">
+                                    <svg height="72" width="63">
+                                        <image height="72" width="63" href="images/svg/kotlin-original-wordmark.svg" />
+                                    </svg>
+                                    <svg height="48" width="42">
+                                        <image height="48" width="42" href="images/svg/mariadb.svg" />
+                                    </svg>
+                                    <svg height="48" width="42">
+                                        <image height="48" width="42" href="images/svg/auth0.svg" />
+                                    </svg>
+                                </div>
+                                <div class="text-center">
+                                    <a href="https://github.com/Raynormind/API-Video.git" class="btn btn-success"
+                                        target="_blank"><span class="fa fa-github"></span> Lien</a>
+                                    <a href="https://atelier1.postman.co/workspace/Projet-Video~cb80d4db-105c-4e81-95d4-2221a6a17bd0/collection/38130561-c3fdb68b-bee7-4d81-ba43-fa3c32d0f81c?action=share&creator=38439930"
+                                        class="btn btn-primary " target="_blank"> Voir les tests</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg mt-4">
+                        <div class="card portfolioContent">
+                            <img class="card-img-top" src="images/Quivia.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h3 class="card-title">Quivia</h3>
+                                <p class="card-text">
+                                    Quivia est une application mobile pour appareil android avec une architecture MVP
+                                    (modèle vue présentateur) faisant appelle à un API externe
+                                    pour offrir des question quizz à l'utilisateur. Ce projet a été fait en équipe de
+                                    trois.
+                                </p>
+                                <p class="card-text">
+                                    Je me suis occuper du DAO paramètre, des classe permetant l'obtention des données de
+                                    l'API externe, pages consignes, pages paramètreClassique et de la musiques.
+                                </p>
+
+
+                                <div class="text-center">
+                                    <svg height="72" width="63">
+                                        <image height="72" width="63" href="images/svg/kotlin-original-wordmark.svg" />
+                                    </svg>
+                                </div>
+                                <div class="text-center">
+                                    <a href="https://github.com/Raynormind/Quivia.git" class="btn btn-success"
+                                        target="_blank"><span class="fa fa-github"></span> Lien</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact" class="wavy-area">
+            <div class="container mt-3 contactContent">
+                <h2 class="text-center">Contactez moi</h2>
+
+                <form class="row mt-4" onsubmit="return false;">
+                    <div class="col-lg-6">
+                        <label for="name" class="form-label required">Nom</label>
+                        <input type="text" class="form-control form-control-lg" id="name" placeholder="Nom" required />
+                        <label for="email" class="form-label required mt-3">Courriel</label>
+                        <input type="email" class="form-control form-control" id="email" placeholder="abc@exemple.com"
+                            required />
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="email" class="form-label required ">Message</label>
+                        <textarea class="form-control" rows="5" id="message" placeholder="Détails du projet"
+                            required></textarea>
+
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="btn btn-primary mt-3" onclick="envoyerCourriel()">Contactez
+                            moi</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/app.js"></script>
+</body>
+
+</html>

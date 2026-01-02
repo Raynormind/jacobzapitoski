@@ -9,7 +9,7 @@ function envoyerCourriel(){
     };
 
     if(param.email === "" || param.name === "" || param.message === ""){
-        
+        alert("message sent successfully");
     }else{
         emailjs.send(serviceID,templateID,param).then(res)
         .then((res) => {
@@ -18,12 +18,14 @@ function envoyerCourriel(){
             document.getElementById("message").value="";
             console.log(res);
             alert("message sent successfully");
+            
         })
         .catch((err) => {
             
             alert("Une erreur est survenu.");
             console.log(err);
         });
+        alert("la requête à été envoyer au serveur.");
     }
 
 }
